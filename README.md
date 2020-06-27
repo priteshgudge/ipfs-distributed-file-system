@@ -15,7 +15,7 @@ ipfs commands
 Web UI: 
 http://localhost:5001/webui
 
-File Management
+### File Management
 ```
 ipfs add hello-ipfs.txt
 https://gateway.ipfs.io/ipfs/<hash-value>
@@ -28,5 +28,11 @@ https://gateway.ipfs.io/ipfs/<directory-hash-value>
 
 ipfs add image.jpg
 https://gateway.ipfs.io/ipfs/<image-hash-value>
+
+```
+### HTML
+```
+ipfs add hello-ipfs.html
+ipfs name publish <name of html>
 
 ```
