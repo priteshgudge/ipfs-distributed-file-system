@@ -14,3 +14,11 @@ ipfs commands
 ```
 Web UI: 
 http://localhost:5001/webui
+
+File Management
+```
+ipfs add hello-ipfs.txt
+https://gateway.ipfs.io/ipfs/<hash-value>
+OR
+ipfs open hello-ipfs.txt
+```
