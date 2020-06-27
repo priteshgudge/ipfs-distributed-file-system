@@ -21,4 +21,12 @@ ipfs add hello-ipfs.txt
 https://gateway.ipfs.io/ipfs/<hash-value>
 OR
 ipfs open hello-ipfs.txt
+
+ipfs add -r folder
+ipfs ls <hash value of directory>
+https://gateway.ipfs.io/ipfs/<directory-hash-value>
+
+ipfs add image.jpg
+https://gateway.ipfs.io/ipfs/<image-hash-value>
+
 ```
