@@ -36,3 +36,10 @@ ipfs add hello-ipfs.html
 ipfs name publish <name of html>
 
 ```
+
+### Wesbite
+```
+ipfs add -r website
+ipfs name publish #hashofdirecotry
+https://gateway.ipfs.io/ipfs/<directory-hash-value>
+```
